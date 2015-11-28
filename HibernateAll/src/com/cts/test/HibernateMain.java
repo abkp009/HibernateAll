@@ -86,7 +86,7 @@ public class HibernateMain {
 		}
 		rs.close();
 		stmt.close();
-
+                conn.close;
 	    }
 
 	});
